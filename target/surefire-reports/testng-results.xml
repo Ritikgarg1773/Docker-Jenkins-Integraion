@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-05-12T16:18:52Z" name="Suite" finished-at="2021-05-12T16:19:30Z" duration-ms="38432">
+    <groups>
+    </groups>
+    <test started-at="2021-05-12T16:18:52Z" name="Test" finished-at="2021-05-12T16:19:30Z" duration-ms="38432">
+      <class name="Docker.FirefoxTest">
+        <test-method signature="test2()[pri:0, instance:Docker.FirefoxTest@3cb6e0ee]" started-at="2021-05-12T16:19:07Z" name="test2" finished-at="2021-05-12T16:19:15Z" duration-ms="8361" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+      </class> <!-- Docker.FirefoxTest -->
+      <class name="Docker.Setup_DockerGrid">
+        <test-method is-config="true" signature="startdocker()[pri:0, instance:Docker.Setup_DockerGrid@497ed877]" started-at="2021-05-12T16:18:52Z" name="startdocker" finished-at="2021-05-12T16:19:07Z" duration-ms="15018" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startdocker -->
+        <test-method is-config="true" signature="stopdocker()[pri:0, instance:Docker.Setup_DockerGrid@497ed877]" started-at="2021-05-12T16:19:15Z" name="stopdocker" finished-at="2021-05-12T16:19:30Z" duration-ms="15008" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopdocker -->
+      </class> <!-- Docker.Setup_DockerGrid -->
+      <class name="Docker.ChromeTest">
+        <test-method signature="test1()[pri:0, instance:Docker.ChromeTest@7b6141f0]" started-at="2021-05-12T16:19:07Z" name="test1" finished-at="2021-05-12T16:19:14Z" duration-ms="7225" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+      </class> <!-- Docker.ChromeTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
